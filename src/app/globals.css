@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #020202;
+  overflow-x: hidden;
+}
+
+.main-height {
+  height: calc(100dvh - 74px);
+}
