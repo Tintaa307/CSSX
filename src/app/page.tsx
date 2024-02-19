@@ -51,7 +51,7 @@ export default function Home() {
             transition={{ duration: 0.5 }}
             className="text-white/70 text-sm font-normal"
           >
-            Created by{" "}
+            Developed by{" "}
             <span className="py-1 px-2 mx-1 rounded-md bg-[#060606] shadow-[0_0_4px_#474747]">
               CSSX
             </span>{" "}

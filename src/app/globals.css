@@ -10,3 +10,12 @@ body {
 .main-height {
   height: calc(100dvh - 74px);
 }
+
+::-webkit-scrollbar {
+  background: #060606;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1f1f1f;
+  border-radius: 10px;
+}
