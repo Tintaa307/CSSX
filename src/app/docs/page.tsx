@@ -23,7 +23,7 @@ const Docs = () => {
         <Article
           title="Getting Started"
           route="/docs/guide/getting-started"
-          description="Learn the basics of shadcn and how to integrate it into your project."
+          description="Learn the basics of cssx and how to integrate it into your project."
           list={gettingStartedList}
         />
         <Article

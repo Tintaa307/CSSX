@@ -15,7 +15,7 @@ const Navbar = () => {
     <>
       {pathname === "/sign-in" ||
       pathname === "/sign-up" ||
-      pathname.includes("docs") ? null : (
+      pathname.includes("guide") ? null : (
         <header className="fixed top-0 left-0 w-full h-[74px] flex items-center justify-center border-b-[1px] border-b-white/20 z-40 backdrop-blur-sm">
           <nav className="w-[77%] h-full flex justify-evenly items-center">
             <Logo />
