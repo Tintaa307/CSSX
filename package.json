@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@remixicon/react": "^4.1.1",
     "@splinetool/react-spline": "^2.2.6",
     "@tabler/icons-react": "^2.47.0",
     "axios": "^1.6.7",
@@ -19,6 +20,7 @@
     "react-dom": "^18",
     "react-query": "^3.39.3",
     "resend": "^3.2.0",
+    "sonner": "^1.4.0",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animation-delay": "^1.2.0",
     "zod": "^3.22.4"

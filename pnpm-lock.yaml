@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@remixicon/react':
+    specifier: ^4.1.1
+    version: 4.1.1(react@18.2.0)
   '@splinetool/react-spline':
     specifier: ^2.2.6
     version: 2.2.6(@splinetool/runtime@1.0.53)(react-dom@18.2.0)(react@18.2.0)
@@ -35,6 +38,9 @@ dependencies:
   resend:
     specifier: ^3.2.0
     version: 3.2.0
+  sonner:
+    specifier: ^1.4.0
+    version: 1.4.0(react-dom@18.2.0)(react@18.2.0)
   tailwind-merge:
     specifier: ^2.2.1
     version: 2.2.1
@@ -325,6 +331,14 @@ packages:
       js-beautify: 1.15.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
+  /@remixicon/react@4.1.1(react@18.2.0):
+    resolution: {integrity: sha512-a2WSRfuv94OwSX2AK2IRhDEYAYxL0AOeF5+3boTILpC41e8Mp8ZJ7b2980ekOnJsnkcBofcHi4/GDR9cKTl/Bg==}
+    peerDependencies:
+      react: '>=18.2.0'
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /@rushstack/eslint-patch@1.7.2:
@@ -2720,6 +2734,16 @@ packages:
     resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}
     engines: {node: '>=8'}
     dev: true
+
+  /sonner@1.4.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-nvkTsIuOmi9e5Wz5If8ldasJjZNVfwiXYijBi2dbijvTQnQppvMcXTFNxL/NUFWlI2yJ1JX7TREDsg+gYm9WyA==}
+    peerDependencies:
+      react: ^18.0.0
+      react-dom: ^18.0.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
 
   /source-map-js@1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}

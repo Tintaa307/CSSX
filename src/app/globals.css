@@ -19,3 +19,11 @@ body {
   background: #1f1f1f;
   border-radius: 10px;
 }
+
+::selection {
+  @apply bg-opacity-30 bg-[#9f43e8ff];
+}
+
+.h-fast {
+  height: calc(100dvh - 56px);
+}

@@ -11,7 +11,7 @@ const Console = () => {
       <ConsoleContent />
       <footer className="w-full h-14 flex items-center justify-start mt-8 rounded-b-3xl bg-[#080808] border-t-[1px] border-white/10">
         <Link
-          href={"https://github.com"}
+          href={"https://github.com/Tintaa307/CSSX"}
           className="text-white/70 bg-[#060606] py-[9px] px-3 shadow-[0_0_2px_#f2f2f2] rounded-3xl text-xs flex items-center flex-row gap-2 mx-12 hover:text-white transition-colors duration-150"
         >
           View on github <IconBrandGithub size={16} />

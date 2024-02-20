@@ -31,7 +31,7 @@ const Input = ({
         value={state}
         onChange={(e) => setState(e.target.value)}
         className={cn(
-          "w-full h-[50px] rounded-md bg-black/35 border-[1px] border-white/20 text-white/80 px-4 text-base font-normal focus:border-white/40 outline-none focus:outline-2 focus:outline-white/20 ring-0 transition-all duration-150",
+          "w-full h-[50px] rounded-md bg-black/35 border-[1px] border-white/20 text-white/80 px-4 text-base font-normal focus:border-white/40 outline-none focus:outline-2 focus:outline-white/20 ring-0 placeholder:text-white/60 placeholder:font-normal placeholder:text-sm transition-all duration-150",
           className
         )}
       />

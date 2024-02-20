@@ -54,7 +54,7 @@ const Social = () => {
   ]
 
   return (
-    <section className="w-1/3 h-full flex items-center justify-center flex-col gap-3">
+    <section className="w-1/3 h-full flex items-center justify-start flex-col gap-3">
       <motion.small
         initial={{ opacity: 0, y: -40 }}
         whileInView={{ opacity: 1, y: 0 }}

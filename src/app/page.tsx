@@ -7,10 +7,18 @@ import Console from "@/components/console/Console"
 import Letter from "@/components/3D-object/Letter"
 import LandingCube from "@/components/3D-object/LandingCube"
 import { motion } from "framer-motion"
+import { Toaster } from "sonner"
+import { useRouter } from "next/navigation"
 
 export default function Home() {
+  const router = useRouter()
   return (
     <main className="relative w-screen min-h-[100dvh] flex items-center justify-center flex-col">
+      <Toaster
+        className="bg-[#060606] border-[1px] border-white/30 text-white/80"
+        position="top-center"
+        duration={3000}
+      />
       <div className="relative w-screen h-screen mb-2 flex items-center justify-center flex-row">
         <section className="w-1/2 h-full flex items-center justify-center flex-col gap-2 opacity-0 animate-fadeRightIn">
           <Title className="font-bold text-5xl leading-snug">
@@ -29,7 +37,11 @@ export default function Home() {
             >
               <IconArrowNarrowRight size={22} className="" />
             </Button>
-            <Button text="Documentation" className="group">
+            <Button
+              action={() => router.push("/docs")}
+              text="Documentation"
+              className="group"
+            >
               <IconBook2
                 size={22}
                 className="group-hover:opacity-0 group-hover:animate-wiggle group-hover:hidden hover:bg-black/25 transition-opacity duration-150"

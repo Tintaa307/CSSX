@@ -13,16 +13,18 @@ const config: Config = {
           "radial-gradient(circle 450px at 0% 0%,hsla(0,0%,100%,.12),hsla(0,0%,100%,0));",
         "gradient-radial-top":
           "radial-gradient(circle 190px at 50% 0%,hsla(0,0%,100%,.12),hsla(0,0%,100%,0));",
-        "gradient-radial-left":
-          "radial-gradient(circle 250px at 50% 100%,hsla(0,0%,100%,.12),hsla(0,0%,100%,0));",
         "gradient-radial-middle":
           "radial-gradient(circle 600px at 50% 60%,hsla(0,0%,100%,.12),hsla(0,0%,100%,0));",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "text-gradient":
           "linear-gradient(to right bottom,#fff 30%,hsla(0,0%,100%,.5));",
         "box-gradient": "linear-gradient(to right bottom,#040404 40%,#111111);",
         "footer-gradient": "linear-gradient(to bottom,#020202,#000 25%);",
+        "gradient-radial-light":
+          "radial-gradient(circle 50px at 50% 50%,hsla(0,0%,100%,.3), hsla(0,0%,100%,0));",
+        "linear-gradient-top-left-short":
+          "linear-gradient(to bottom right, #111111, #070707 30%)",
+        "linear-gradient-top-left-long":
+          "linear-gradient(to bottom right, #111111, #070707 50%)",
       },
 
       keyframes: {
