@@ -6,7 +6,7 @@ const Aside = () => {
   return (
     <aside
       className={[
-        "w-[30%] flex items-center justify-start flex-col gap-12 border-r-[1px] border-white/40",
+        "w-[25%] flex items-center justify-start flex-col gap-8 border-r-[1px] border-white/40",
         "h-fast",
       ].join(" ")}
     >

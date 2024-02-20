@@ -46,7 +46,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full h-14 bg-[#050505] flex items-center justify-center border-b-[1px] border-white/30">
-      <div className="w-[54%] h-full flex items-center justify-between">
+      <div className="w-[57%] h-full flex items-center justify-between">
         <div className="relative w-max h-full flex items-center justify-center">
           <Input
             type="text"
