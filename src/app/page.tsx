@@ -12,6 +12,7 @@ import { useRouter } from "next/navigation"
 
 export default function Home() {
   const router = useRouter()
+
   return (
     <main className="relative w-screen min-h-[100dvh] flex items-center justify-center flex-col">
       <Toaster
@@ -21,7 +22,7 @@ export default function Home() {
       />
       <div className="relative w-screen h-screen mb-2 flex items-center justify-center flex-row">
         <section className="w-1/2 h-full flex items-center justify-center flex-col gap-2 opacity-0 animate-fadeRightIn">
-          <Title className="font-bold text-5xl leading-snug">
+          <Title className="font-bold text-5xl leading-tight">
             The most powerful 3D
             <br /> component library
           </Title>

@@ -21,12 +21,7 @@ const SignUp = () => {
   }
 
   return (
-    <section
-      className={cn(
-        "w-full flex items-center justify-center flex-col mt-[74px]",
-        "main-height"
-      )}
-    >
+    <section className="w-full h-screen flex items-center justify-center flex-col ">
       <div className="w-full h-max flex items-center justify-center flex-col gap-6">
         <div className="w-[30%] h-max flex items-start justify-center flex-col gap-3">
           <h1 className="text-white text-3xl font-semibold">Register here</h1>
