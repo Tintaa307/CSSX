@@ -1,25 +1,19 @@
-"use client"
-
 import Button from "@/components/button/Button"
 import Input from "@/components/input/Input"
 import Separator from "@/components/separator/Separator"
 import { IconArrowNarrowRight } from "@tabler/icons-react"
 import Link from "next/link"
-import React, { useState } from "react"
+import React from "react"
 import OauthSection from "../sign-in/OauthSection"
 import Agreements from "@/components/agreements/Agreements"
-import { cn } from "@/libs/utils"
+
+type SignUpProps = {
+  fullname: string
+  email: string
+  password: string
+}
 
 const SignUp = () => {
-  const [fullname, setFullname] = useState("")
-  const [email, setEmail] = useState("")
-  const [password, setPassword] = useState("")
-
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    console.log(fullname, email, password)
-  }
-
   return (
     <section className="w-full h-screen flex items-center justify-center flex-col ">
       <div className="w-full h-max flex items-center justify-center flex-col gap-6">
@@ -36,30 +30,12 @@ const SignUp = () => {
           </p>
         </div>
         <form
-          onSubmit={handleSubmit}
+          autoComplete="off"
           className="w-[30%] h-max flex items-center justify-center flex-col"
         >
-          <Input
-            state={fullname}
-            setState={setFullname}
-            label="Fullname"
-            type="text"
-            placeholder="John Doe"
-          />
-          <Input
-            state={email}
-            setState={setEmail}
-            label="Email"
-            type="email"
-            placeholder="johndoe@example.com"
-          />
-          <Input
-            state={password}
-            setState={setPassword}
-            label="Password"
-            type="password"
-            placeholder="●●●●●●●●"
-          />
+          <Input label="Fullname" type="text" placeholder="John Doe" />
+          <Input label="Email" type="email" placeholder="johndoe@example.com" />
+          <Input label="Password" type="password" placeholder="●●●●●●●●" />
           <Button
             text="Sign up"
             className="hover:gap-3 transition-all duration-150"
