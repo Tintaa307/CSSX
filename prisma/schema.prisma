@@ -8,10 +8,11 @@ datasource db {
   directUrl = env("POSTGRES_URL_NON_POOLING")
 }
 
-model User {
+model Users {
   id        String   @id @default(uuid())
   name      String
   email     String   @unique
-  Password  String
+  password  String
+  user_id   String   @unique
   createdAt DateTime @default(now())
 }
